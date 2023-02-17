@@ -7,7 +7,7 @@ const Final = () => {
     const navegacion = useNavigate();
     return (
         <div className="contenedor">
-            <h1 className="titulo">Vaya, respuesta incorrecta</h1>
+            <h1 className="titulo">Has perdido, respuesta incorrecta </h1>
             <h2 className="titulo">La respuesta correcta era:<strong>{laCorrecta}</strong> </h2>
             <div className="">
                 <img src={require(`../assets/el_ahorcado6.png`)} alt=""/>
